@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      About
+      {/* https://i.postimg.cc/BvcNS1mv/shuvodip.png */}
+      
     </div>
   );
 };
