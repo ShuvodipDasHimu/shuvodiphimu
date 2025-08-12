@@ -6,7 +6,7 @@ const Home = () => {
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/src/assets/Me.jpg"
+            src={"https://i.postimg.cc/W3ZsxX5K/Me.jpg"}
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
