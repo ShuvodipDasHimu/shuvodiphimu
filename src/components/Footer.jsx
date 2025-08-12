@@ -9,7 +9,7 @@ const Footer = () => {
           <li><NavLink to="/" className="link link-hover">Home</NavLink></li>
           <li><NavLink to="/projects" className="link link-hover">Projects</NavLink></li>
           <li><NavLink to="/skills" className="link link-hover">Skills</NavLink></li>
-          <li><NavLink to="/contact" className="link link-hover">Contact</NavLink></li>
+          <li><NavLink to="/contact" className="link link-hover">Socials</NavLink></li>
           <li><NavLink to="/about" className="link link-hover">About</NavLink></li>
         </ul>
       </nav>

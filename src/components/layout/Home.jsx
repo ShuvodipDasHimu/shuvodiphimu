@@ -18,9 +18,14 @@ const Home = () => {
             <h1 className="text-5xl font-bold">Hi, I’m Shuvodip Das Himu 🥷</h1>
             <h2 className="text-3xl font-semibold">Frontend Engineer 💻</h2>
             <p className="py-6 text-2xl w-2/3 text-justify">
-               I specialize in MERN Stack, JavaScript, React Router, Firebase, Tailwind CSS & daisyUI — crafting sleek, responsive, and user-focused web experiences.
+              I specialize in MERN Stack, JavaScript, React Router, Firebase,
+              Tailwind CSS & daisyUI — crafting sleek, responsive, and
+              user-focused web experiences.
             </p>
-            <button className="btn bg-sky-700">Get Started</button>
+            <a href="mailto:shuvodipwork@gmail.com?subject=Hello%20Shuvodip&body=I%20want%20to%20get%20started">
+              <button className="btn text-xl bg-white text-black py-6">Get In Touch</button>
+              {/* <button className="btn text-xl bg-sky-700 py-6">Get In Touch</button> */}
+            </a>
           </div>
         </div>
       </div>
