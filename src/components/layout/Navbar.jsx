@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -27,26 +27,48 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-xl"
           >
-           <li><NavLink to="/">Home</NavLink></li>
-           <li><NavLink to="/projects">Projects</NavLink></li>
-           <li><NavLink to="/skills">Skills</NavLink></li>
-           <li><NavLink to="/contact">Socials</NavLink></li>
-           <li><NavLink to="/about">About</NavLink></li>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/projects">Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/skills">Skills</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Socials</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">SHUVODIP</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-xl">
-           <li><NavLink to="/">Home</NavLink></li>
-           <li><NavLink to="/projects">Projects</NavLink></li>
-           <li><NavLink to="/skills">Skills</NavLink></li>
-           <li><NavLink to="/contact">Socials</NavLink></li>
-           <li><NavLink to="/about">About</NavLink></li>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects">Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to="/skills">Skills</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Socials</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn text-xl bg-white text-black py-6">Contact</button>
+        <Link to="/contact" className="btn text-xl bg-white text-black py-6">
+          Contact
+        </Link>
       </div>
     </div>
   );

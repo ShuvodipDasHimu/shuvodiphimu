@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Home = () => {
   return (
@@ -23,7 +24,12 @@ const Home = () => {
               user-focused web experiences.
             </p>
             <a href="mailto:shuvodipwork@gmail.com?subject=Hello%20Shuvodip&body=I%20want%20to%20get%20started">
-              <button className="btn text-xl bg-white text-black py-6">Get In Touch</button>
+              <Link
+                to="/contact"
+                className="btn text-xl bg-white text-black py-6"
+              >
+                Get In Touch
+              </Link>
               {/* <button className="btn text-xl bg-sky-700 py-6">Get In Touch</button> */}
             </a>
           </div>
