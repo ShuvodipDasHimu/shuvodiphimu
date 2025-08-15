@@ -13,11 +13,11 @@ const Home = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={"https://i.postimg.cc/W3ZsxX5K/Me.jpg"}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-9/12 rounded-lg shadow-2xl"
           />
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Hi, I’m Shuvodip Das Himu 🥷</h1>
-            <h2 className="text-3xl font-semibold">Frontend Engineer 💻</h2>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Hi, I’m Shuvodip Das Himu 🥷</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold">Frontend Engineer 💻</h2>
             <p className="py-6 text-2xl w-2/3 text-center">
               I specialize in MERN Stack, JavaScript, React Router, Firebase,
               Tailwind CSS & daisyUI — crafting sleek, responsive, and
