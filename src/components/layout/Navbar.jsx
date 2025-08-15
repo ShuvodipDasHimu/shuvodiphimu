@@ -66,7 +66,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link to="/contact" className="btn text-xl bg-white text-black py-6">
+        <Link to="/contact" className="btn text-xl bg-white text-black py-6 btn-xl md:btn-md">
           Contact
         </Link>
       </div>

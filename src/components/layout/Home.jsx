@@ -26,7 +26,7 @@ const Home = () => {
             <a href="mailto:shuvodipwork@gmail.com?subject=Hello%20Shuvodip&body=I%20want%20to%20get%20started">
               <Link
                 to="/contact"
-                className="btn text-xl bg-white text-black py-6"
+                className="btn text-xl bg-white text-black py-6 btn-xl md:btn-md"
               >
                 Get In Touch
               </Link>
