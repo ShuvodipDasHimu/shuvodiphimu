@@ -7,7 +7,7 @@ const About = () => {
   <div className="hero-content flex-col lg:flex-row">
     <img
       src="https://i.postimg.cc/BvcNS1mv/shuvodip.png"
-      className="md:max-w-sm rounded-lg shadow-2xl w-9/12"
+      className="rounded-lg shadow-2xl max-w-3/5 md:max-w-3/4"
     />
     <div>
       <h1 className="text-5xl font-bold text-center">Hello!</h1>
