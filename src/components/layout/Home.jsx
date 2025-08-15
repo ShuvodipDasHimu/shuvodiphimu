@@ -15,10 +15,10 @@ const Home = () => {
             src={"https://i.postimg.cc/W3ZsxX5K/Me.jpg"}
             className="max-w-sm rounded-lg shadow-2xl"
           />
-          <div>
+          <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Hi, I’m Shuvodip Das Himu 🥷</h1>
             <h2 className="text-3xl font-semibold">Frontend Engineer 💻</h2>
-            <p className="py-6 text-2xl w-2/3 text-justify">
+            <p className="py-6 text-2xl w-2/3 text-center">
               I specialize in MERN Stack, JavaScript, React Router, Firebase,
               Tailwind CSS & daisyUI — crafting sleek, responsive, and
               user-focused web experiences.
