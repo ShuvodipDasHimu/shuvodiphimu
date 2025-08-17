@@ -6,7 +6,7 @@ const Contact = () => {
     {
       name: "Facebook",
       icon: <FaFacebook className="text-blue-600 text-6xl" />,
-      link: "https://www.facebook.com/NeelamaniDasHrishikesh",
+      link: "https://www.facebook.com/shuvodipdashimuu",
     },
     {
       name: "WhatsApp",
