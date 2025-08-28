@@ -9,6 +9,7 @@ const projects = [
   { title: "Dev Board", link: "https://a5-dev-board-pi.vercel.app/" },
   { title: "Lavender Appstore", link: "https://shuvodip-lavender-appstore.netlify.app" },
   { title: "Binge Bangers", link: "https://binge-bangers.vercel.app/" },
+  { title: "Topmind Care", link: "topmind-care-shuvodip.vercel.app/" },
   { title: "JS Drum Kit", link: "https://01-java-script-drum-kit-shuvodip.vercel.app/" },
 ];
 
