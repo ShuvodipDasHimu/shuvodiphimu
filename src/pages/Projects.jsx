@@ -9,6 +9,7 @@ const projects = [
   { title: "Dev Board", link: "https://a5-dev-board-pi.vercel.app/" },
   { title: "Lavender Appstore", link: "https://shuvodip-lavender-appstore.netlify.app" },
   { title: "Binge Bangers", link: "https://binge-bangers.vercel.app/" },
+  { title: "JS Drum Kit", link: "https://01-java-script-drum-kit-shuvodip.vercel.app/" },
 ];
 
 const Projects = () => {
@@ -24,7 +25,7 @@ const Projects = () => {
             key={index}
             className="bg-base-100 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between p-16"
           >
-            <h2 className="text-2xl font-semibold text-gray-200 mb-6">
+            <h2 className="text-2xl font-semibold text-gray-200 mb-6 text-center">
               {project.title}
             </h2>
             <a
