@@ -11,6 +11,7 @@ const projects = [
   { title: "Binge Bangers", link: "https://binge-bangers.vercel.app/" },
   { title: "Topmind Care", link: "https://topmind-care-shuvodip.vercel.app/" },
   { title: "JS Drum Kit", link: "https://01-java-script-drum-kit-shuvodip.vercel.app/" },
+  { title: "Studyground", link: "https://studyground-sigma.vercel.app/" },
 ];
 
 const Projects = () => {
