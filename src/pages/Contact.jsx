@@ -25,7 +25,7 @@ const Contact = () => {
     },
     {
       name: "Linkedin",
-      icon: <FaLinkedin className="text-blue-800 text-6xl" />,
+      icon: <FaLinkedin className="text-blue-600/100 text-6xl" />,
       link: "https://github.com/shuvodipdashimu",
     },
     {
