@@ -5,7 +5,7 @@ const Contact = () => {
   const socials = [
     {
       name: "Facebook",
-      icon: <FaFacebook className="text-blue-600 text-6xl" />,
+      icon: <FaFacebook className="text-[#1877F2] text-6xl" />,
       link: "https://www.facebook.com/shuvodipdashimuu",
     },
     {
@@ -25,7 +25,7 @@ const Contact = () => {
     },
     {
       name: "Linkedin",
-      icon: <FaLinkedin className="text-blue-600/100 text-6xl" />,
+      icon: <FaLinkedin className="text-[#0077B5] text-6xl" />,
       link: "https://github.com/shuvodipdashimu",
     },
     {
