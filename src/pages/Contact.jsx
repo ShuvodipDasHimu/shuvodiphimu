@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaWhatsapp, FaInstagram, FaGithub, FaDiscord, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp, FaInstagram, FaGithub, FaDiscord, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const socials = [
@@ -21,6 +21,11 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <FaGithub className="text-gray-800 text-6xl" />,
+      link: "https://github.com/shuvodipdashimu",
+    },
+    {
+      name: "Linkedin",
+      icon: <FaLinkedin className="text-blue-800 text-6xl" />,
       link: "https://github.com/shuvodipdashimu",
     },
     {
